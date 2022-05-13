@@ -3,7 +3,9 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "src/index.js",
-	"dependencies": {},
+	"dependencies": {
+		"colors": "1.4.0"
+	},
 	"devDependencies": {
 		"eslint": "8.15.0",
 		"eslint-config-airbnb": "19.0.4",

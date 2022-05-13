@@ -1,4 +1,4 @@
-export defaultObject.freeze({
+export default Object.freeze({
 	BASEBALL: 'baseball',
 	BASKETBALL: 'basketball',
 	FOOTBALL: 'american-football',

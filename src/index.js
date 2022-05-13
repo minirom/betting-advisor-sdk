@@ -1,3 +1,4 @@
-import SportsEnum from '../constants/SportsEnum';
+import SportsEnum from './enums/SportsEnum';
+import Logger from './utils/Logger';
 
-export default { SportsEnum };
+export default { SportsEnum, Logger };
