@@ -1,0 +1,27 @@
+{
+	"name": "betting-advisor-sdk",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/index.js",
+	"dependencies": {},
+	"devDependencies": {
+		"eslint": "8.15.0",
+		"eslint-config-airbnb": "19.0.4",
+		"eslint-config-prettier": "8.5.0",
+		"prettier": "2.6.2"
+	},
+	"scripts": {
+		"lint": "eslint . --fix",
+		"format": "prettier . --write"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/minirom/betting-advisor-sdk.git"
+	},
+	"author": "Romain Le Boudec",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/minirom/betting-advisor-sdk/issues"
+	},
+	"homepage": "https://github.com/minirom/betting-advisor-sdk#readme"
+}
