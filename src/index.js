@@ -1,3 +1,4 @@
 import Logger from './utils/Logger.js';
+import SportsEnum from './enums/SportsEnum.js';
 
-export default { Logger };
+export default { SportsEnum, Logger };
