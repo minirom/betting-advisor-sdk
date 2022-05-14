@@ -10,7 +10,7 @@ module.exports = {
 		'no-unreachable': process.env.NODE_ENV === 'production' ? 2 : 1,
 		'import/no-extraneous-dependencies': 'off',
 		'no-param-reassign': ['error', { props: false }],
-		'import/extensions': ['error', 'ignorePackages', { js: 'never' }],
+		'import/extensions': 0,
 		'no-restricted-syntax': 0,
 		'no-await-in-loop': 0,
 	},

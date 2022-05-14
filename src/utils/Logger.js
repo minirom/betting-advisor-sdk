@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import colors from 'colors';
-import LoggerLevelsEnum from '../enums/LoggerLevelsEnum';
+import LoggerLevelsEnum from '../enums/LoggerLevelsEnum.js';
 
 colors.setTheme({
 	[LoggerLevelsEnum.INFO]: 'blue',
