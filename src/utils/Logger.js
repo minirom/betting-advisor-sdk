@@ -36,7 +36,7 @@ class Logger {
 					level: 'error',
 					format: combine(filterOnly('error'), timestamp(), myFormatError),
 				}),
-				new winston.transports.File({ filename }),
+				new winston.transports.File({ filename, level: 'error' }),
 			],
 		});
 	}
