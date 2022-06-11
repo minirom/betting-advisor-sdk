@@ -6,4 +6,5 @@ export default Object.freeze({
 	HOCKEY: 'hockey',
 	RUGBY: 'rugby',
 	SOCCER: 'soccer',
+	VOLLEYBALL: 'volleyball',
 });
