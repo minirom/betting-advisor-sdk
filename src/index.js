@@ -1,5 +1,6 @@
 export { default as SportsEnum } from './enums/SportsEnum.js';
 export { default as ForfeitWinnerEnum } from './enums/ForfeitWinnerEnum.js';
+export { default as RecordTypeEnum } from './enums/RecordTypeEnum.js';
 
 export { default as Logger } from './utils/Logger.js';
 
