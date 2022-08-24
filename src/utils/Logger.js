@@ -1,14 +1,5 @@
 /* eslint-disable no-console */
-import colors from 'colors';
 import LoggerLevelsEnum from '../enums/LoggerLevelsEnum.js';
-
-colors.setTheme({
-	[LoggerLevelsEnum.INFO]: 'blue',
-	[LoggerLevelsEnum.DEBUG]: 'yellow',
-	[LoggerLevelsEnum.ERROR]: 'red',
-	[LoggerLevelsEnum.FATAL]: 'cyan',
-	[LoggerLevelsEnum.WARN]: 'green',
-});
 
 let level = LoggerLevelsEnum.INFO;
 
@@ -23,7 +14,7 @@ class Logger {
 	}
 
 	static displayLevel(l) {
-		return `[${l}]`[l];
+		return `[${l}]`;
 	}
 
 	static debug(...message) {
