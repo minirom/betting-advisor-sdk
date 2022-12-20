@@ -5,10 +5,10 @@
 	"main": "src/index.js",
 	"type": "module",
 	"devDependencies": {
-		"eslint": "8.26.0",
+		"eslint": "8.30.0",
 		"eslint-config-airbnb": "19.0.4",
 		"eslint-config-prettier": "8.5.0",
-		"prettier": "2.7.1"
+		"prettier": "2.8.1"
 	},
 	"scripts": {
 		"lint": "eslint . --fix",
