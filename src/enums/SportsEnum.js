@@ -1,7 +1,7 @@
 export default Object.freeze({
 	BASEBALL: 'baseball',
 	BASKETBALL: 'basketball',
-	FOOTBALL: 'american-football',
+	FOOTBALL: 'football',
 	HANDBALL: 'handball',
 	HOCKEY: 'hockey',
 	RUGBY: 'rugby',
